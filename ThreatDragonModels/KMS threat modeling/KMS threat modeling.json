@@ -149,8 +149,8 @@
                 "height": 100
               },
               "position": {
-                "x": 928,
-                "y": 308
+                "x": 930,
+                "y": 249
               },
               "angle": 0,
               "id": "fdea2277-86b1-4f20-91aa-db7132ed8ba1",
@@ -175,8 +175,8 @@
                 "height": 100
               },
               "position": {
-                "x": 929,
-                "y": 490
+                "x": 936,
+                "y": 404
               },
               "angle": 0,
               "id": "72cd0e2d-931e-4524-b8e9-713f8ac4d481",
@@ -435,8 +435,8 @@
                 "y": 360
               },
               "target": {
-                "x": 926,
-                "y": 355
+                "x": 929,
+                "y": 297
               },
               "vertices": [],
               "id": "ba679475-241b-4c11-988b-88b948c010ca",
@@ -467,13 +467,18 @@
               "type": "tm.Flow",
               "smooth": true,
               "source": {
-                "x": 928,
-                "y": 532
+                "x": 940,
+                "y": 477
               },
               "target": {
                 "id": "df318f4d-5ec5-4404-b243-054b2d52bd5f"
               },
-              "vertices": [],
+              "vertices": [
+                {
+                  "x": 814,
+                  "y": 458
+                }
+              ],
               "id": "14354d0c-6033-467a-9cde-a42cf3d75f6e",
               "labels": [
                 {
@@ -694,6 +699,70 @@
               "id": "b0c285b8-560a-4d17-a2e7-2b673c2682d4",
               "z": 24,
               "attrs": {}
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 888,
+                "y": 571
+              },
+              "angle": 0,
+              "id": "6c0c1dea-59ba-486b-8f55-844776d807ee",
+              "z": 25,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "syslog"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "df318f4d-5ec5-4404-b243-054b2d52bd5f"
+              },
+              "target": {
+                "x": 886,
+                "y": 624
+              },
+              "vertices": [],
+              "id": "d058d2d9-871a-45a7-9ddc-7ecff0ac5cfd",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.8047527623398686,
+                    "offset": 8.36907327246097
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "audit information",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 26,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
             }
           ]
         },

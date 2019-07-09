@@ -1,0 +1,16 @@
+{
+  "summary": {
+    "title": "KMS threat mdoeling",
+    "owner": "Sindhu Ravichandran"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "KMS Threat Modeling",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
+  }
+}
